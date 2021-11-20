@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: deepskyblue;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 480px;
+  background-color: #ffff;
+  width: 700px;
+  margin: 100px auto;
+}
+
+.header .container {
+  background-image: url(../photo_2021-06-09_14-31-38.jpg);
+  background-position-Y: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header .container .container__box {
+  margin: 0 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 580px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 50px;
+}
+
+.header .container .container__box .container__box-left h2 {
+  font-size: 40px;
+}
+
+.header .container .container__box .container__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.header .container .container__lorem {
+  font-size: 18px;
+  margin: 0 60px;
+  padding-top: 20px;
+  color: #b8aaaa;
+}
+
+.header .container .container__ded {
+  margin: 0 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .container .container__ded img {
+  width: 500px;
+  height: 300px;
+}
+
+.header .container .container__ded h3 {
+  font-size: 25px;
+  padding-top: 25px;
+}
+/*# sourceMappingURL=main.css.map */

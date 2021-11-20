@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: deepskyblue;
+}
+.header{
+    display: flex;
+    height: 480px;
+    background-color: #ffff;
+    width: 700px;
+    margin: 100px auto;
+    .container{
+        background-image: url(../photo_2021-06-09_14-31-38.jpg);
+        background-position-Y: 130px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .container__box{
+            margin: 0 60px;
+            display: flex;
+            width: 580px;
+            justify-content: space-between;
+            padding-top: 50px;
+            .container__box-left{
+                h2{
+                    font-size: 40px;
+                }
+            }
+            .container__right{
+                display: flex;
+                height: 50px;
+                width: 50px;
+                border: 1px solid black;
+                border-radius: 50%;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        }
+        .container__lorem{
+            font-size: 18px;
+            margin: 0 60px;
+            padding-top: 20px;
+            color: rgb(184, 170, 170);
+        }
+        .container__ded{
+            margin: 0 60px;
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 500px;
+                height: 300px;
+            }
+            h3{
+                font-size: 25px;
+                padding-top: 25px;
+            }
+        }
+    }
+}
